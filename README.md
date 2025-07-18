@@ -116,6 +116,7 @@ We can see the new firefox with russian lenguage.
 
 
 <p align="center">
+  <img src="4.webp" width="70%" />
   <img src="1.webp" width="70%" />
   <img src="2.webp" width="70%" />
   <img src="3.webp" width="70%" />
