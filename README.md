@@ -97,6 +97,22 @@ Then rerun:
 
 ./abrirfirem
 
+Selecciona idioma:
+  01) en-US   - English
+  02) es-ES   - Español
+  03) ja      - 日本語
+  04) zh-CN   - 中文(简)
+  05) ru      - Русский
+  06) fr-FR   - Français
+  07) de-DE   - Deutsch
+  08) pt-BR   - Português(BR)
+  09) it-IT   - Italiano
+  10) ko      - 한국어
+Número: 5
+
+
+![Preview](1.webp)
+
 
 ⸻
 
