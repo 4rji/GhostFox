@@ -9,17 +9,22 @@ Set up a private, ephemeral Firefox browser with multi-language support and Sear
 ⸻
 
 Requirements
-	1.	Homebrew
+
+
+1.	
 Install Homebrew:
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+		/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-	2.	Docker for macOS (Apple Silicon)
 Download Docker.dmg
-	3.	XQuartz
 
-brew install --cask xquartz
+https://desktop.docker.com/mac/main/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module
+
+
+Install xquartz
+
+	brew install --cask xquartz
 
 
 
@@ -35,18 +40,15 @@ This script will:
 	•	Download the required Dockerfile to build Firefox.
 	•	Pull the latest SearXNG image:
 
-Using default tag: latest
-latest: Pulling from searxng/searxng
-...
-Status: Downloaded newer image for searxng/searxng:latest
 
-	•	Ask:
-
+```
 Download Dockerfile from GitHub? [y/N]: y
 Dockerfile saved as 'Dockerfile'
+```
 
 
-⸻
+
+⸻⸻⸻⸻
 
 Step 2: Build Firefox container
 
@@ -62,7 +64,8 @@ firefox-ephemeral   latest    d239e2bfa8af   1 minute ago         1.26GB
 searxng/searxng     latest    c1ad2bd15604   14 hours ago         260MB
 
 
-⸻
+
+⸻⸻⸻⸻
 
 Step 3: Run abrirfirem
 
@@ -75,15 +78,20 @@ Choose language:
   02) es-ES   - Español
   ...
   10) ko      - 한국어
-Number: 2
+Number: 5
 
 
 ⸻
 
 If xhost error occurs
 
-xhost 127.0.0.1
+
+```
 open -a XQuartz
+xhost 127.0.0.1
+```
+
+
 
 Then rerun:
 
