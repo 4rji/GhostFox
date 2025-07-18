@@ -67,9 +67,9 @@ searxng/searxng     latest    c1ad2bd15604   14 hours ago         260MB
 
 ⸻⸻⸻⸻
 
-Step 3: Run abrirfirem
-
-./abrirfirem
+Step 3: Run abrirfiremac
+(for linux run abrirfire-linux)
+./abrirfiremac
 
 Language prompt:
 
@@ -108,11 +108,19 @@ Selecciona idioma:
   08) pt-BR   - Português(BR)
   09) it-IT   - Italiano
   10) ko      - 한국어
+
 Número: 5
 
 
-![Preview](1.webp)
+We can see the new firefox with russian lenguage.
 
+
+<p align="center">
+  <img src="1.webp" width="70%" />
+  <img src="2.webp" width="70%" />
+  <img src="3.webp" width="70%" />
+  <img src="5.webp" width="70%" />
+</p>
 
 ⸻
 
