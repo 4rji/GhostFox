@@ -111,8 +111,12 @@ Selecciona idioma:
 Número: 5
 
 
-![Preview](1.webp)
-
+<p align="center">
+  <img src="1.webp" width="70%" />
+  <img src="2.webp" width="70%" />
+  <img src="3.webp" width="70%" />
+  <img src="5.webp" width="70%" />
+</p>
 
 ⸻
 
